@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/barathraj10/movie-gallery",
+  "homepage": "https://barathraj10.github.io/movie-app",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",

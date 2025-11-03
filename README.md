@@ -29,10 +29,12 @@ A responsive **React.js** application powered by the **TMDB API**, designed for 
 ## 🔑 API Integration
 
 This project uses the [TMDB API](https://www.themoviedb.org/documentation/api) to fetch real-time movie data.
-
-https://github.com/user-attachments/assets/13773dd2-454b-4ec7-9d7b-c4d4888971ac
+---
 
 <img width="1366" height="768" alt="Movie App" src="https://github.com/user-attachments/assets/aa8ea50f-311d-4866-95ef-42182e53e6e6" />
+---
+https://github.com/user-attachments/assets/13773dd2-454b-4ec7-9d7b-c4d4888971ac
+
 
 
 

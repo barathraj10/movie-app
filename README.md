@@ -1,12 +1,38 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **React.js** application powered by the **TMDB API**, designed for discovering movies by genres, popularity, and IMDb ratings. Styled elegantly using **Tailwind CSS**, it provides a smooth and interactive movie-browsing experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎞️ **Genre-based Filtering** – Easily explore movies from different genres.
+- ⭐ **Popular Movies** – View trending and top-rated movies based on IMDb ratings.
+- 🔍 **Search Functionality** – Quickly find movies by title.
+- 🧭 **Dynamic Routing** – Navigate between movie details and home seamlessly.
+- 💡 **Responsive UI** – Fully optimized for both desktop and mobile devices.
+- ⚡ **Fast Performance** – Built with React hooks and optimized API calls.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React.js |
+| Styling | Tailwind CSS |
+| API | TMDB (The Movie Database) API |
+| Deployment | Vercel / Netlify *(optional)* |
+
+https://github.com/user-attachments/assets/13773dd2-454b-4ec7-9d7b-c4d4888971ac
+
+<img width="1366" height="768" alt="Movie App" src="https://github.com/user-attachments/assets/aa8ea50f-311d-4866-95ef-42182e53e6e6" />
+
+
+---
+
+## 🔑 API Integration
+
+This project uses the [TMDB API](https://www.themoviedb.org/documentation/api) to fetch real-time movie data.
+
+<img width="1366" height="768" alt="Movie App" src="https://github.com/user-attachments/assets/e96bae58-a57c-4720-8302-6339e929f482" />

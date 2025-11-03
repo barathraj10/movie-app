@@ -22,7 +22,7 @@ A responsive **React.js** application powered by the **TMDB API**, designed for 
 | Frontend | React.js |
 | Styling | Tailwind CSS |
 | API | TMDB (The Movie Database) API |
-| Deployment | Vercel / Netlify *(optional)* |
+| Deployment | Github Pages |
 
 https://github.com/user-attachments/assets/13773dd2-454b-4ec7-9d7b-c4d4888971ac
 

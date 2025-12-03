@@ -25,8 +25,8 @@
     font-family: "DM Sans", serif;
     font-optical-sizing: auto;
     background: #030014;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
   }
 
   h1 {
@@ -141,9 +141,21 @@
     & .content .year {
       @apply text-gray-100 font-medium text-base;
     }
-    & .content .capitalize-first-letter{
+
+    & .content .capitalize-first-letter {
       text-transform: capitalize;
     }
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
   }
 }
 
@@ -165,14 +177,18 @@
     display: none;
   }
 }
+
 /* Hide scrollbar */
 .hide-scrollbar {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* IE 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
 }
 
 .hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Chrome/Safari */
+  display: none;
+  /* Chrome/Safari */
 }
 
 /* Custom scrollbar */

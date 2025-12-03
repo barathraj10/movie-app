@@ -47,6 +47,7 @@ const App = () => {
     );
     const data = await res.json();
     const firstMovie = data.results?.[0];
+    console.log(data);
     if (firstMovie) {
       setGenreThumbnails(prev => ({
         ...prev,

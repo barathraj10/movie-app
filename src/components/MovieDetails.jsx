@@ -5,8 +5,8 @@ const MovieDetails = ({ movie, onClose }) => {
   if (!movie) return null;
 
   return (
-    <div className="bg-primary h-full fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
-      <div className="bg-dark-100 p-6 rounded-lg w-[500px] relative">
+    <div className="bg-primary h-full p-5 fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+      <div className="bg-dark-100 p-6 h-full overflow-y-scroll scrollbar-hide rounded-lg w-[500px] relative">
         <button
           onClick={onClose}
           className="absolute top-2 right-2 text-red-600 font-bold text-xl"
@@ -30,7 +30,7 @@ const MovieDetails = ({ movie, onClose }) => {
               <p className='year'>{movie.release_date ? movie.release_date.split('-')[0]:'N/A'}</p>
             </div>
           </div>
-        <p className="text-white m-5">{movie.overview}</p>
+        <p className="text-white m-5 contain-content">{movie.overview}</p>
       </div>
     </div>
   );
